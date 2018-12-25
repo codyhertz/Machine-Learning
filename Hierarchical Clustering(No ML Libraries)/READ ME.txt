@@ -1,0 +1,1 @@
+Hierarchical clustering algorithm with an end number of clusters of 2 and 6 for single and complete linkage.

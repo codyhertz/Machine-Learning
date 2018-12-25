@@ -1,0 +1,1 @@
+Object oriented approach to linear regression to predict miles per gallon of cars using python
