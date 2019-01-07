@@ -83,5 +83,6 @@ def create_model():
 
     return model
 
+print('Loading Neural Network...')
 estimator = KerasClassifier(build_fn=create_model, epochs=75, verbose=0)
-print('5 Layer Deep Neural Network Accuracy:', cross_val_score(estimator, all_features_scaled, all_classes, cv=10).mean())
+print('5 Layer Deep Neural Network Accuracy:', cross_val_score(estimator, all_features_scaled, all_classes, cv=5).mean())
